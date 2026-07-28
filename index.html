@@ -7,11 +7,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=3">
+    <link rel="stylesheet" href="styles.css?v=8">
 </head>
 <body>
     <div class="top-bar">
-        <div class="brand"><a href="#top">NC Analytics and AI Day 2026</a></div>
+        <div class="brand"><a href="#top"><img src="logo.svg" alt="NC Analytics and AI Day 2026"></a></div>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="top-nav" id="site-nav" aria-label="Page sections">
+            <a href="#registration">Registration</a>
+            <a href="#plenary">Plenary</a>
+            <a href="#logistics">Logistics</a>
+            <a href="#speakers">Speakers</a>
+            <a href="#poster">Poster</a>
+            <a href="#program">Program</a>
+            <a href="#panelists">Panelists</a>
+            <a href="#committee">Committee</a>
+        </nav>
     </div>
 
     <header class="hero" id="top">
@@ -69,6 +82,19 @@
         </div>
     </section>
 
+    <section id="plenary">
+        <div class="section-band">
+            <h2>Plenary Speaker</h2>
+        </div>
+        <div class="content-narrow">
+            <p>
+                <a href="https://www.fuqua.duke.edu/faculty/aaron-chatterji" target="_blank" rel="noopener"><strong>Ronnie Chatterji</strong></a><br>
+                Chief Economist at OpenAI<br>
+                Professor at Duke, Fuqua School of Business
+            </p>
+        </div>
+    </section>
+
     <section id="logistics">
         <div class="section-band">
             <h2>Logistics</h2>
@@ -117,7 +143,7 @@
                 <li><a href="https://stat.duke.edu/research/eric-laber" target="_blank" rel="noopener"><span class="name">Eric Laber</span></a>, Duke University</li>
                 <li><a href="https://www.kenan-flagler.unc.edu/faculty/directory/jayashankar-swaminathan/" target="_blank" rel="noopener"><span class="name">Jay Swaminathan</span></a>, University of North Carolina at Chapel Hill</li>
                 <li><a href="https://business.wfu.edu/directory/pelin-pekgun/" target="_blank" rel="noopener"><span class="name">Pelin Pekgun</span></a>, Wake Forest University</li>
-                <li><a href="https://www.fuqua.duke.edu/faculty/peng-sun" target="_blank" rel="noopener"><span class="name">Peng Sun</span></a>, Duke University</li>
+                <li><a href="https://stor.unc.edu/faculty-member/chen-guanting/" target="_blank" rel="noopener"><span class="name">Guanting Chen</span></a>, University of North Carolina at Chapel Hill</li>
                 <li><a href="https://ise.ncsu.edu/people/kay/" target="_blank" rel="noopener"><span class="name">Mike Kay</span></a>, NC State University</li>
                 <li><a href="https://ise.ncsu.edu/people/fjliving/" target="_blank" rel="noopener"><span class="name">Frederick Livingston</span></a>, NC State University</li>
                 <li><a href="https://ise.ncsu.edu/people/hwan4/" target="_blank" rel="noopener"><span class="name">Hong Wan</span></a>, NC State University</li>
@@ -173,6 +199,35 @@
         </div>
     </section>
 
+    <section id="panelists">
+        <div class="section-band">
+            <h2>Panelists</h2>
+        </div>
+        <div class="panelist-grid">
+            <div class="panelist">
+                <div class="panelist-name"><a href="https://csc.ncsu.edu/people/mpsingh/" target="_blank" rel="noopener">Munindar Singh</a></div>
+                <div class="panelist-affil">NC State University</div>
+            </div>
+            <div class="panelist">
+                <div class="panelist-name">Zohreh Asgharzadeh</div>
+                <div class="panelist-affil">SAS</div>
+            </div>
+            <div class="panelist">
+                <div class="panelist-name">Eric Wolak</div>
+                <div class="panelist-affil">UNC Chatham Hospital</div>
+            </div>
+            <div class="panelist">
+                <div class="panelist-name">Caroline (Baldauff) Lockard</div>
+                <div class="panelist-affil">SAS</div>
+            </div>
+            <div class="panelist panelist--moderator">
+                <div class="panelist-role">Panel Moderator</div>
+                <div class="panelist-name">Beverly Wright</div>
+                <div class="panelist-affil">Intuitive.ai</div>
+            </div>
+        </div>
+    </section>
+
     <section id="committee">
         <div class="section-band">
             <h2>Organizing Committee</h2>
@@ -187,8 +242,206 @@
         </div>
     </section>
 
+    <div class="footer-stripe" aria-hidden="true"></div>
     <footer class="site-footer">
-        <p>NC Analytics and AI Day &middot; September 25, 2026 &middot; NC State, Duke Energy Hall</p>
+        <div class="footer-inner">
+            <div class="footer-main">
+                <div class="footer-branding">
+                    <a class="footer-logo" href="https://www.informs.org/">
+                        <img
+                            src="https://www.informs.org/design/user_inform_v2/images/logo.png"
+                            alt="INFORMS — Institute for Operations Research and the Management Sciences"
+                            width="299"
+                            height="76"
+                        >
+                    </a>
+                    <p><strong>The Institute for Operations Research and the Management Sciences</strong></p>
+                    <address>
+                        5521 Research Park Drive, Suite 200<br>
+                        Catonsville, MD 21228 USA
+                    </address>
+                    <p class="footer-ein">
+                        INFORMS (Institute for Operations Research and the Management Sciences)
+                        is a U.S. 501(c)(3) nonprofit organization; EIN: 52-1898636.
+                    </p>
+                    <p><strong>Phone 1</strong> <a class="tel" href="tel:4437573500">443-757-3500</a></p>
+                    <p><strong>Phone 2</strong> <a class="tel" href="tel:8004463676">800-4INFORMS (800-446-3676)</a></p>
+                    <p><strong>Fax</strong> 443-757-3515</p>
+                    <p><a href="mailto:informs@informs.org">Email</a></p>
+                </div>
+
+                <div class="footer-menu">
+                    <div class="get-updates">
+                        <h3>Get the Latest Updates</h3>
+                        <div class="quick-subscribe" id="hs-subscribe"></div>
+                    </div>
+
+                    <nav class="footer-nav" aria-label="INFORMS">
+                        <ul class="footer-menu__list">
+                            <li><a href="https://www.informs.org/Discover">Discover INFORMS</a></li>
+                            <li><a href="https://www.informs.org/Explore">Explore OR &amp; Analytics</a></li>
+                            <li><a href="https://www.informs.org/Get-Involved">Get Involved</a></li>
+                            <li><a href="https://www.informs.org/Impact">Impact</a></li>
+                            <li><a href="https://myaccount.informs.org/joinapi__login?id=a201U000000Wyu4QAC&amp;order=1&amp;site=a0d1U000004oMn9QAE">Join Us</a></li>
+                        </ul>
+                        <ul class="footer-menu__list">
+                            <li><a href="https://www.informs.org/Recognizing-Excellence">Recognizing Excellence</a></li>
+                            <li><a href="https://www.informs.org/Professional-Development">Professional Development</a></li>
+                            <li><a href="https://www.informs.org/Resource-Center">Resource Center</a></li>
+                            <li><a href="https://www.informs.org/Meetings-Conferences">Meetings &amp; Conferences</a></li>
+                            <li><a href="https://www.informs.org/Publications">Publications</a></li>
+                            <li><a href="https://www.informs.org/About-INFORMS">About INFORMS</a></li>
+                        </ul>
+                        <ul class="footer-menu__list">
+                            <li><a href="https://www.pubsonline.informs.org/">PubsOnLine</a></li>
+                            <li class="current-meeting"><a href="https://bit.ly/41SqCq9">INFORMS Healthcare Conference 2023</a></li>
+                            <li><a href="https://www.certifiedanalytics.org/index.php">Certified Analytics Professional</a></li>
+                            <li><a href="https://www.careercenter.informs.org/">Career Center</a></li>
+                            <li><a href="https://connect.informs.org/home">INFORMS Connect</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-info">
+                    <span class="footer-copyright">
+                        Copyright <span id="copyright-year"></span> INFORMS. All Rights Reserved
+                    </span>
+                    <nav aria-label="Legal">
+                        <ul class="footer-utility__list">
+                            <li><a href="https://www.informs.org/About-INFORMS/Governance/INFORMS-Code-of-Conduct">INFORMS Code of Conduct</a></li>
+                            <li><a href="https://www.informs.org/About-INFORMS/Terms-and-Conditions">Terms of Use</a></li>
+                            <li><a href="https://www.informs.org/About-INFORMS/Privacy-Policy">Privacy Policy</a></li>
+                            <li><a href="https://www.informs.org/About-INFORMS/Contact-Us">Contact INFORMS</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-social">
+                    <span class="footer-social__label">Follow INFORMS on:</span>
+                    <ul class="footer-social__list">
+                        <li><a href="https://twitter.com/INFORMS">X / Twitter</a></li>
+                        <li><a href="https://www.facebook.com/INFORMSpage/">Facebook</a></li>
+                        <li><a href="https://www.linkedin.com/groups/82644/profile">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script charset="utf-8" src="//js.hsforms.net/forms/v2.js"></script>
+    <script>
+        document.getElementById("copyright-year").textContent = new Date().getFullYear();
+        if (window.hbspt) {
+            hbspt.forms.create({
+                portalId: "3449182",
+                formId: "e46a467c-0128-4d15-91c2-dc93cf32206d",
+                target: "#hs-subscribe",
+                css: ""
+            });
+        }
+    </script>
+
+    <script>
+        $ = jQuery;
+
+        $(document).ready(function () {
+            var $topBar = $(".top-bar");
+            var $nav = $(".top-nav");
+            var $toggle = $(".nav-toggle");
+            var sectionIds = [
+                "registration",
+                "plenary",
+                "logistics",
+                "speakers",
+                "poster",
+                "program",
+                "panelists",
+                "committee"
+            ];
+
+            function headerOffset() {
+                return $topBar.outerHeight() + 12;
+            }
+
+            function scrollToHash(hash, animate) {
+                var $target = $(hash);
+                if (!$target.length) return;
+                var top = $target.offset().top - headerOffset();
+                if (animate === false) {
+                    $("html, body").scrollTop(top);
+                } else {
+                    $("html, body").stop(true).animate({ scrollTop: top }, 450);
+                }
+            }
+
+            function updateActiveNav() {
+                var scrollPos = $(window).scrollTop() + headerOffset() + 8;
+                var current = null;
+
+                $.each(sectionIds, function (_, id) {
+                    var $section = $("#" + id);
+                    if ($section.length && $section.offset().top <= scrollPos) {
+                        current = id;
+                    }
+                });
+
+                $nav.find("a").removeClass("is-active");
+                if (current) {
+                    $nav.find('a[href="#' + current + '"]').addClass("is-active");
+                }
+            }
+
+            $toggle.on("click", function () {
+                var open = !$topBar.hasClass("nav-open");
+                $topBar.toggleClass("nav-open", open);
+                $toggle.attr("aria-expanded", open ? "true" : "false");
+            });
+
+            $nav.on("click", "a", function (e) {
+                var href = $(this).attr("href");
+                if (href && href.charAt(0) === "#") {
+                    e.preventDefault();
+                    $topBar.removeClass("nav-open");
+                    $toggle.attr("aria-expanded", "false");
+                    history.pushState(null, "", href);
+                    scrollToHash(href, true);
+                }
+            });
+
+            $('a[href^="#"]').not($nav.find("a")).on("click", function (e) {
+                var href = $(this).attr("href");
+                if (href && href.length > 1 && $(href).length) {
+                    e.preventDefault();
+                    history.pushState(null, "", href);
+                    scrollToHash(href, true);
+                }
+            });
+
+            if (window.location.hash && $(window.location.hash).length) {
+                setTimeout(function () {
+                    scrollToHash(window.location.hash, false);
+                    updateActiveNav();
+                }, 50);
+            }
+
+            $(window).on("scroll resize", updateActiveNav);
+            updateActiveNav();
+        });
+    </script>
+
+    <script>
+        // Update meeting menu link to latest iteration
+        $(document).ready(function () {
+            $.get("https://common.informs.org/json/next-conference.json", function (data) {
+                if (data["conference_name"] && data["conference_url"]) {
+                    $(".current-meeting a")
+                        .html(data["conference_name"])
+                        .attr("href", data["conference_url"]);
+                }
+            });
+        });
+    </script>
 </body>
 </html>
