@@ -34,7 +34,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&family=Roboto+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=24">
+    <link rel="stylesheet" href="styles.css?v=26">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -98,9 +98,9 @@
           },
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-          "startDate": "2026-09-25T08:45:00-04:00",
-          "endDate": "2026-09-25T17:30:00-04:00",
-          "doorTime": "2026-09-25T08:45:00-04:00",
+          "startDate": "2026-09-25T08:00:00-04:00",
+          "endDate": "2026-09-25T18:00:00-04:00",
+          "doorTime": "2026-09-25T08:00:00-04:00",
           "inLanguage": "en",
           "isAccessibleForFree": false,
           "keywords": [
@@ -292,22 +292,41 @@
               "@type": "Person",
               "name": "Leila Hajibabai",
               "affiliation": { "@type": "CollegeOrUniversity", "name": "NC State University" },
-              "description": "Organizing Committee"
+              "description": "Organizing Committee; Competition Judge"
             },
             {
               "@type": "Person",
               "name": "Yuqian Xu",
               "affiliation": { "@type": "CollegeOrUniversity", "name": "University of North Carolina at Chapel Hill, Kenan-Flagler Business School" },
-              "description": "Organizing Committee"
+              "description": "Organizing Committee; Competition Committee Chair"
             },
             {
               "@type": "Person",
               "name": "Yehua Wei",
               "affiliation": { "@type": "CollegeOrUniversity", "name": "Duke University, Fuqua School of Business" },
               "description": "Organizing Committee"
+            },
+            {
+              "@type": "Person",
+              "name": "Saman Lagzi",
+              "affiliation": { "@type": "CollegeOrUniversity", "name": "University of North Carolina at Chapel Hill" },
+              "description": "Competition Judge"
+            },
+            {
+              "@type": "Person",
+              "name": "Can Zhang",
+              "affiliation": { "@type": "CollegeOrUniversity", "name": "Duke University" },
+              "description": "Competition Judge"
             }
           ],
           "subEvent": [
+            {
+              "@type": "Event",
+              "name": "Breakfast",
+              "description": "Breakfast will be provided",
+              "startDate": "2026-09-25T08:00:00-04:00",
+              "endDate": "2026-09-25T08:45:00-04:00"
+            },
             {
               "@type": "Event",
               "name": "Introduction",
@@ -335,9 +354,9 @@
             {
               "@type": "Event",
               "name": "Lunch with Poster Session / Competition",
-              "description": "Student lunch poster competition",
-              "startDate": "2026-09-25T11:30:00-04:00",
-              "endDate": "2026-09-25T13:00:00-04:00"
+              "description": "Lunch will be provided. Student lunch poster competition.",
+              "startDate": "2026-09-25T12:00:00-04:00",
+              "endDate": "2026-09-25T13:30:00-04:00"
             },
             {
               "@type": "Event",
@@ -369,6 +388,17 @@
               "@type": "SocialEvent",
               "name": "Ice Cream Social",
               "startDate": "2026-09-25T17:30:00-04:00"
+            },
+            {
+              "@type": "SocialEvent",
+              "name": "Happy Hour",
+              "description": "Organized by Beverly Wright from Intuitive.ai. Interest form: https://forms.gle/WuFgxmwh48D1yoZF8. The event may be cancelled if there is not sufficient interest.",
+              "startDate": "2026-09-25T18:00:00-04:00",
+              "organizer": {
+                "@type": "Person",
+                "name": "Beverly Wright",
+                "affiliation": { "@type": "Organization", "name": "Intuitive.ai" }
+              }
             }
           ]
         }
@@ -565,6 +595,7 @@
         </div>
         <div class="content-narrow">
             <p><em>Tentative Schedule</em></p>
+            <p class="program-note">Breakfast and lunch will be provided.</p>
         </div>
         <div class="program-table-wrap">
             <table class="program-table">
@@ -575,11 +606,12 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <tr><td>8:00 &ndash; 8:45</td><td>Breakfast</td></tr>
                     <tr><td>8:45 &ndash; 9:00</td><td>Introduction</td></tr>
                     <tr><td>9:00 &ndash; 9:45</td><td>Plenary Talk</td></tr>
                     <tr><td>9:45 &ndash; 10:15</td><td>Break</td></tr>
                     <tr><td>10:15 &ndash; 11:30</td><td>Presentations</td></tr>
-                    <tr><td>11:30 &ndash; 1:00</td><td>Lunch with Poster Session / Competition</td></tr>
+                    <tr><td>12:00 &ndash; 1:30</td><td>Lunch with Poster Session / Competition</td></tr>
                     <tr><td>1:15 &ndash; 2:30</td><td>Presentations</td></tr>
                     <tr><td>2:30 &ndash; 2:45</td><td>Break</td></tr>
                     <tr><td>2:45 &ndash; 3:45</td><td>Panel Discussion</td></tr>
@@ -587,8 +619,15 @@
                     <tr><td>4:00 &ndash; 5:15</td><td>Presentations</td></tr>
                     <tr><td>5:15 &ndash; 5:20</td><td>Poster Awards, Adjourn</td></tr>
                     <tr><td>5:30</td><td>Ice Cream Social</td></tr>
+                    <tr><td>~ 6:00</td><td>Happy Hour</td></tr>
                 </tbody>
             </table>
+            <p class="program-note program-note--after">
+                <strong>Happy Hour:</strong> Organized by Beverly Wright from Intuitive.ai.
+                If you are interested in attending, please fill out
+                <a href="https://forms.gle/WuFgxmwh48D1yoZF8" target="_blank" rel="noopener">this form</a>.
+                The event may be cancelled if there is not sufficient interest.
+            </p>
         </div>
     </section>
 
@@ -623,15 +662,58 @@
 
     <section id="committee">
         <div class="section-band">
-            <h2>Organizing Committee</h2>
+            <h2>Committee</h2>
         </div>
-        <div class="content-narrow">
-            <ul class="people">
-                <li><span class="name">Ed Addison</span>, Industrial and Systems Engineering, NC State University</li>
-                <li><span class="name">Leila Hajibabai</span>, Industrial and Systems Engineering, NC State University</li>
-                <li><span class="name">Yuqian Xu</span>, Kenan-Flagler Business School, University of North Carolina at Chapel Hill</li>
-                <li><span class="name">Yehua Wei</span>, Fuqua School of Business, Duke University</li>
-            </ul>
+        <div class="committee-grid">
+            <div class="committee-group">
+                <h3 class="committee-heading">Organizing</h3>
+                <article class="committee-card">
+                    <div class="committee-name">Ed Addison</div>
+                    <div class="committee-affil">Industrial and Systems Engineering, NC State University</div>
+                </article>
+                <article class="committee-card">
+                    <div class="committee-name">Leila Hajibabai</div>
+                    <div class="committee-affil">Industrial and Systems Engineering, NC State University</div>
+                    <div class="committee-tags">
+                        <span class="committee-tag">Competition Judge</span>
+                    </div>
+                </article>
+                <article class="committee-card">
+                    <div class="committee-name">Yuqian Xu</div>
+                    <div class="committee-affil">Kenan-Flagler Business School, University of North Carolina at Chapel Hill</div>
+                    <div class="committee-tags">
+                        <span class="committee-tag chair">Competition Chair</span>
+                    </div>
+                </article>
+                <article class="committee-card">
+                    <div class="committee-name">Yehua Wei</div>
+                    <div class="committee-affil">Fuqua School of Business, Duke University</div>
+                </article>
+            </div>
+
+            <div class="committee-group">
+                <h3 class="committee-heading">Competition</h3>
+                <article class="committee-card featured">
+                    <div class="committee-role">Chair</div>
+                    <div class="committee-name">Yuqian Xu</div>
+                    <div class="committee-affil">University of North Carolina at Chapel Hill</div>
+                </article>
+                <article class="committee-card">
+                    <div class="committee-role">Judge</div>
+                    <div class="committee-name">Leila Hajibabai</div>
+                    <div class="committee-affil">NC State University</div>
+                </article>
+                <article class="committee-card">
+                    <div class="committee-role">Judge</div>
+                    <div class="committee-name">Saman Lagzi</div>
+                    <div class="committee-affil">University of North Carolina at Chapel Hill</div>
+                </article>
+                <article class="committee-card">
+                    <div class="committee-role">Judge</div>
+                    <div class="committee-name">Can Zhang</div>
+                    <div class="committee-affil">Duke University</div>
+                </article>
+            </div>
         </div>
     </section>
 
@@ -872,13 +954,13 @@
                     },
                     {
                         nodes: document.querySelectorAll(
-                            "#plenary .content-narrow, #logistics .content-narrow, #poster .content-narrow, #program .content-narrow, #speakers .content-narrow, #committee .content-narrow, .program-table-wrap, .cta-section"
+                            "#plenary .content-narrow, #logistics .content-narrow, #poster .content-narrow, #program .content-narrow, #speakers .content-narrow, .program-table-wrap, .committee-group, .cta-section"
                         ),
                         stagger: 0,
                         type: "reveal"
                     },
                     {
-                        nodes: document.querySelectorAll("#speakers .people li, #committee .people li"),
+                        nodes: document.querySelectorAll("#speakers .people li, .committee-card"),
                         stagger: 45,
                         type: "reveal"
                     },
