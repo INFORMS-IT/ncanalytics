@@ -447,6 +447,18 @@ strong {
     transform: translateY(-1px);
 }
 
+.sponsor-cta {
+    margin-top: 22px;
+}
+
+.sponsor-btn {
+    background: #003986;
+}
+
+.sponsor-btn:hover {
+    background: #00285d;
+}
+
 .reg-btn.disabled {
     background: #1b5e20;
     cursor: default;

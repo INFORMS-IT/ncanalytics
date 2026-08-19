@@ -34,7 +34,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&family=Roboto+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=26">
+    <link rel="stylesheet" href="styles.css?v=27">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -421,6 +421,7 @@
             <a href="#program">Program</a>
             <a href="#panelists">Panelists</a>
             <a href="#committee">Committee</a>
+            <a href="#sponsorships">Sponsorships</a>
         </nav>
     </div>
 
@@ -717,6 +718,23 @@
         </div>
     </section>
 
+    <section id="sponsorships">
+        <div class="section-band">
+            <h2>Sponsorship Opportunities</h2>
+        </div>
+        <div class="content-narrow">
+            <p>
+                Support the NC Regional Exchange and connect with professionals, students, and researchers in analytics and AI.
+            </p>
+            <p>
+                Interested in sponsoring? Complete the Regional Exchange Sponsorship Form below.
+            </p>
+            <p class="sponsor-cta">
+                <a class="reg-btn sponsor-btn" href="https://forms.gle/UFQevC76BwexyKjh9" target="_blank" rel="noopener">Sponsorship Form</a>
+            </p>
+        </div>
+    </section>
+
     <section id="register-cta" class="cta-section">
         <p style="text-align:center;">
             <!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-ad61e0dd-6b9f-4d8b-bdd8-0d04ece47d39"><span class="hs-cta-node hs-cta-ad61e0dd-6b9f-4d8b-bdd8-0d04ece47d39" id="hs-cta-ad61e0dd-6b9f-4d8b-bdd8-0d04ece47d39"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/3449182/ad61e0dd-6b9f-4d8b-bdd8-0d04ece47d39" ><img class="hs-cta-img" id="hs-cta-img-ad61e0dd-6b9f-4d8b-bdd8-0d04ece47d39" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/3449182/ad61e0dd-6b9f-4d8b-bdd8-0d04ece47d39.png"  alt="Register Now"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(3449182, 'ad61e0dd-6b9f-4d8b-bdd8-0d04ece47d39', {"useNewLoader":"true","region":"na1"}); </script></span><!-- end HubSpot Call-to-Action Code -->
@@ -839,7 +857,8 @@
                 "poster",
                 "program",
                 "panelists",
-                "committee"
+                "committee",
+                "sponsorships"
             ];
 
             if ("scrollRestoration" in history) {
@@ -954,7 +973,7 @@
                     },
                     {
                         nodes: document.querySelectorAll(
-                            "#plenary .content-narrow, #logistics .content-narrow, #poster .content-narrow, #program .content-narrow, #speakers .content-narrow, .program-table-wrap, .committee-group, .cta-section"
+                            "#plenary .content-narrow, #logistics .content-narrow, #poster .content-narrow, #program .content-narrow, #speakers .content-narrow, #sponsorships .content-narrow, .program-table-wrap, .committee-group, .cta-section"
                         ),
                         stagger: 0,
                         type: "reveal"
