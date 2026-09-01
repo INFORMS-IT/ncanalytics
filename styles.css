@@ -500,6 +500,58 @@ strong {
     text-decoration: underline;
 }
 
+/* Talk abstracts */
+.abstracts-list {
+    max-width: 820px;
+    margin: 8px auto 0;
+    padding: 0 28px 12px;
+}
+
+.abstract-card {
+    background: #ffffff;
+    border: 1px solid #dce2ea;
+    border-left: 4px solid #003986;
+    border-radius: 6px;
+    padding: 24px 26px 26px;
+    margin-bottom: 20px;
+    text-align: left;
+    box-shadow: 0 2px 10px rgba(0, 57, 134, 0.06);
+}
+
+.abstract-speaker {
+    font-family: "Roboto Condensed", "Arial Narrow", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    color: #003986;
+    margin: 0 0 10px;
+}
+
+.abstract-co {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.88rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #5a6575;
+    text-transform: none;
+}
+
+.abstract-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #2a2e35;
+    margin: 0 0 14px;
+}
+
+.abstract-body {
+    font-size: 0.96rem;
+    line-height: 1.65;
+    color: #3a4250;
+    margin: 0;
+}
+
 /* Panelists */
 .panelist-grid {
     max-width: 1100px;
@@ -1009,6 +1061,12 @@ strong {
         grid-template-columns: 1fr;
         gap: 32px;
         padding: 0 20px;
+    }
+    .abstracts-list {
+        padding: 0 20px 12px;
+    }
+    .abstract-card {
+        padding: 20px 18px 22px;
     }
     .footer-main {
         grid-template-columns: 1fr;
