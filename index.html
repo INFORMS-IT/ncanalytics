@@ -34,7 +34,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&family=Roboto+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=28">
+    <link rel="stylesheet" href="styles.css?v=29">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -418,7 +418,6 @@
             <a href="#plenary">Plenary</a>
             <a href="#logistics">Logistics</a>
             <a href="#speakers">Speakers</a>
-            <a href="#abstracts">Abstracts</a>
             <a href="#poster">Poster</a>
             <a href="#program">Program</a>
             <a href="#panelists">Panelists</a>
@@ -575,43 +574,9 @@
                 <li><a href="https://ise.ncsu.edu/people/hwan4/" target="_blank" rel="noopener"><span class="name">Hong Wan</span></a>, NC State University</li>
                 <li><a href="https://stor.unc.edu/faculty-member/ziya-serhan/" target="_blank" rel="noopener"><span class="name">Serhan Ziya</span></a>, University of North Carolina at Chapel Hill</li>
             </ul>
-        </div>
-    </section>
-
-    <section id="abstracts">
-        <div class="section-band">
-            <h2>Talk Titles &amp; Abstracts</h2>
-        </div>
-        <div class="abstracts-list">
-            <article class="abstract-card">
-                <h3 class="abstract-speaker">Guanting Chen</h3>
-                <h4 class="abstract-title">Lean-Nexus: Scaling AI-for-Math to Real-World Mathematical Verification</h4>
-                <p class="abstract-body">Recent AI-for-Math systems perform well on clean benchmarks but struggle with real-world mathematical documents containing implicit assumptions, heterogeneous notation, long dependency chains, and subtle errors. We introduce Lean-Nexus, an agentic framework for understanding, formalizing, and verifying research-level mathematics directly from LaTeX or PDF. Lean-Nexus iteratively performs interpretation, decomposition, formalization, verification, diagnosis, and repair, allowing it to distinguish formalization mismatches from genuine logical issues. It also produces structured reasoning artifacts, including proof dependencies, error annotations, repair trajectories, and verifier feedback. Experiments on research papers show that Lean-Nexus can identify subtle issues and suggest meaningful corrections, demonstrating a practical path toward scaling AI-for-Math from curated benchmarks to real-world mathematical research.</p>
-            </article>
-
-            <article class="abstract-card">
-                <h3 class="abstract-speaker">Michael Kay <span class="abstract-co">(co-present with Jake Benhart)</span></h3>
-                <h4 class="abstract-title">Pull-Based Engineering Education at Scale Using Agentic AI</h4>
-                <p class="abstract-body">AI has made producing an engineering result cheap, moving the scarce skill from production to judgment: proposing the right model, and deciding whether the result can be trusted. ISE 754, Logistics Engineering, has been rebuilt for Fall 2026 around that shift. Students read the lecture before class alongside an agent that answers their own questions rather than delivering a prepared explanation, and the class hour is then built from what they could not resolve. Explanation is pulled at the moment of difficulty rather than pushed on a schedule. Assessment follows the same logic: take-home work is done with AI and counts for almost nothing, while most of the grade is earned in class, by hand, without it. Projects go further, casting the student as a consultant whose client releases only what their questions earn, so knowing what to ask is part of the work. Agents are what make this affordable, since each student can be answered on their own difficulty at no marginal cost. What carries it is a private repository per student in NC State's GitHub Enterprise organization: they pull what the course publishes, push their work as the submission, and receive feedback as commits. This semester is the pilot, and the goal is to scale it to much larger classes.</p>
-            </article>
-
-            <article class="abstract-card">
-                <h3 class="abstract-speaker">Shawn Mankad</h3>
-                <h4 class="abstract-title">Confidently Wrong: The Illusion of Precision in LLM-Generated Tabular Data</h4>
-                <p class="abstract-body">Large language models are increasingly used to generate synthetic tabular data, but this talk shows the resulting data carries a systematic, non-vanishing statistical distortion. We model LLM output as a contamination mixture of memorized and model-generated rows. This provably compresses residual variance and biases regression coefficients, producing an illusion of precision: synthetic-data intervals grow more confident in the wrong answer, rather than widening to reveal it. We then show the same diagnosis motivates a fix: the Covariance-Aligned Refit (CAR) corrects the observable distortion directly, and Prediction-Powered CAR (PP-CAR) adaptively decides how much to trust the corrected signal. Across five real datasets, this yields confidence intervals that are both narrower than reference-only and as valid.</p>
-            </article>
-
-            <article class="abstract-card">
-                <h3 class="abstract-speaker">Pelin Pekgun</h3>
-                <h4 class="abstract-title">Analytics for Good: Fighting Hunger and Reducing Waste with Data and Analytics</h4>
-                <p class="abstract-body">Food insecurity remains a persistent humanitarian challenge, with approximately one in seven people in the United States experiencing food insecurity even as up to 40% of the nation's food supply goes uneaten. Addressing this disconnect requires better decisions about how food and other resources are accessed, allocated, and utilized within a complex supply chain. Yet nonprofit food-assistance organizations often operate with limited resources, heterogeneous capacities, incomplete data, fragmented IT systems, and limited analytical and technical expertise. Drawing on research and collaborations with food banks, this talk will explore how data, analytics, and AI can support decision making across food recovery and assistance systems, and what these mission-driven settings reveal about designing analytics solutions that are practical, interpretable, sustainable, and human-centered with appropriate privacy, governance, and ethical safeguards.</p>
-            </article>
-
-            <article class="abstract-card">
-                <h3 class="abstract-speaker">Serhan Ziya</h3>
-                <h4 class="abstract-title">From Individual Predictions to Aggregate Decisions: Proactive Inpatient Bed Requests from the Emergency Department</h4>
-                <p class="abstract-body">Emergency department (ED) boarding is a persistent operational challenge and an important contributor to patient length of stay. Prior work has explored using early predictions of hospital admission to initiate inpatient bed requests for individual ED patients before their disposition decisions are finalized. In this work, we consider an alternative approach in which bed-request decisions are made at the aggregate level. At regular decision epochs, information about patients currently in the ED is combined with information about previously requested beds to determine how many additional inpatient beds to request. We formulate this dynamic decision problem as a Markov decision process that balances ED boarding, idling of proactively prepared inpatient beds, and variability in bed requests. Because direct solution of the resulting model is computationally challenging, we develop several decision policies, including an MDP-based heuristic, a newsvendor-based heuristic, and a reinforcement learning approach using deep Q-networks. We evaluate these policies using a simulation model based on data from a large academic medical center. Our results suggest that aggregate proactive bed requests can substantially reduce ED boarding and length of stay while maintaining reasonable levels of inpatient-bed idling. (Joint work with Qian Cheng, Nilay T. Argon, and Aniruddhan Ganesaraman.)</p>
-            </article>
+            <p class="section-cta">
+                <a class="reg-btn abstracts-btn" href="2026_NC_Triangle_Titles_and_Abstracts.pdf" target="_blank" rel="noopener">View Talk Titles &amp; Abstracts</a>
+            </p>
         </div>
     </section>
 
@@ -667,6 +632,9 @@
                 If you are interested in attending, please fill out
                 <a href="https://forms.gle/WuFgxmwh48D1yoZF8" target="_blank" rel="noopener">this form</a>.
                 The event may be cancelled if there is not sufficient interest.
+            </p>
+            <p class="section-cta">
+                <a class="reg-btn abstracts-btn" href="2026_NC_Triangle_Titles_and_Abstracts.pdf" target="_blank" rel="noopener">View Talk Titles &amp; Abstracts</a>
             </p>
         </div>
     </section>
@@ -893,7 +861,6 @@
                 "plenary",
                 "logistics",
                 "speakers",
-                "abstracts",
                 "poster",
                 "program",
                 "panelists",
@@ -1013,13 +980,13 @@
                     },
                     {
                         nodes: document.querySelectorAll(
-                            "#plenary .content-narrow, #logistics .content-narrow, #poster .content-narrow, #program .content-narrow, #speakers .content-narrow, #sponsorships .content-narrow, .abstracts-list, .program-table-wrap, .committee-group, .cta-section"
+                            "#plenary .content-narrow, #logistics .content-narrow, #poster .content-narrow, #program .content-narrow, #speakers .content-narrow, #sponsorships .content-narrow, .program-table-wrap, .committee-group, .cta-section"
                         ),
                         stagger: 0,
                         type: "reveal"
                     },
                     {
-                        nodes: document.querySelectorAll("#speakers .people li, .committee-card, .abstract-card"),
+                        nodes: document.querySelectorAll("#speakers .people li, .committee-card"),
                         stagger: 45,
                         type: "reveal"
                     },
