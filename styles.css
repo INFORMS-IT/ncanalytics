@@ -211,6 +211,16 @@ body {
     text-transform: none;
 }
 
+.section-band-deadline {
+    margin: 10px auto 0;
+    max-width: 720px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #ffffff;
+}
+
 /* Centered narrow content */
 .content-narrow {
     max-width: 880px;
@@ -368,6 +378,15 @@ strong {
     font-weight: 600;
     line-height: 1.55;
     text-align: center;
+}
+
+.reg-deadline {
+    max-width: 820px;
+    margin: 20px auto 0;
+    text-align: center;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #003986;
 }
 
 .pricing-card {
