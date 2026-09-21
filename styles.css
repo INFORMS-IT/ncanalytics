@@ -299,7 +299,7 @@ strong {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 28px 40px;
+    gap: 0 40px;
     max-width: 960px;
     margin: 8px auto 48px;
     padding: 8px 24px 0;
@@ -313,6 +313,11 @@ strong {
     height: 88px;
     opacity: 0.92;
     transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.sponsor-logo--intuitive {
+    width: 160px;
+    height: 64px;
 }
 
 .sponsor-logo:hover {
@@ -1150,12 +1155,16 @@ strong {
         font-size: 1.3rem;
     }
     .sponsor-logos {
-        gap: 20px 28px;
+        gap: 0 28px;
         margin-bottom: 36px;
     }
     .sponsor-logo {
         width: 180px;
         height: 72px;
+    }
+    .sponsor-logo--intuitive {
+        width: 130px;
+        height: 52px;
     }
     .pricing-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
