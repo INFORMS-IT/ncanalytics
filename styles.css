@@ -229,6 +229,10 @@ body {
     text-align: center;
 }
 
+.intro-section {
+    background: #ffffff;
+}
+
 .content-narrow.left {
     text-align: left;
 }
