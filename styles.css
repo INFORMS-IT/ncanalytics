@@ -305,7 +305,7 @@ strong {
     align-items: center;
     gap: 0 40px;
     max-width: 960px;
-    margin: 8px auto 48px;
+    margin: 8px auto 24px;
     padding: 8px 24px 0;
 }
 
@@ -548,6 +548,11 @@ strong {
 .section-cta {
     margin: 28px auto 8px;
     text-align: center;
+}
+
+.intro-learn-more {
+    margin: 8px auto 40px;
+    padding: 0 24px;
 }
 
 .abstracts-btn {
