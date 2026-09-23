@@ -373,6 +373,15 @@ strong {
     margin-top: 0;
 }
 
+.reg-closed {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #2a2e35;
+}
+
 .pricing-grid {
     max-width: 1100px;
     margin: 0 auto;
